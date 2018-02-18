@@ -48,9 +48,7 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     noInfo: true,
-    overlay: true,
-      public: 'vu-js-learning-octate.c9users.io' // That solved it
-
+    overlay: true
   },
   performance: {
     hints: false

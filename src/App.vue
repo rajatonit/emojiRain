@@ -2,12 +2,12 @@
     <div id="app">
       <div id="center">
       <Emoji    :rainAway="rainAway" />
-      
+
       <div id = "text">
       <h1 >  What is this even</h1>
-      
+
       <p >This is a <a href="https://vuejs.org/">Vue.js</a> element that you can drop on any web page and make it rain emoji. Because, why in the world wouldn't you?</p>
-      <button v-on:click="rain()"> Make it rain!!! <img width="50px" src="./assets/dolla.png"></img> </button>
+      <button v-on:click="rain()"> Make it rain!!!  </button>
       <hr/>
        <div id="footer">
       <p>Made with <span style="color: #E91E63">❤︎</span> by <a href="https://twitter.com/rajatonit">rajat</a>.</p>
@@ -58,17 +58,17 @@ button:hover{
     color:white;
     background-color:#fc005a
 }
- 
+
 </style>
 
 <script>
-  import Emoji from './Emoji-Rain.vue'
-  
+  import Emoji from './TurbanHeart-Rain.vue'
+
     export default{
         data(){
           return{
             rainAway:false
-          }  
+          }
         },
         methods: {
           rain(){
@@ -80,7 +80,7 @@ button:hover{
           }
         },
          components:{
-            Emoji       
+            Emoji
         }
     }
 </script>

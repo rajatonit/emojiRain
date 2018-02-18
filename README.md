@@ -1,6 +1,6 @@
-# vue-emoji-rain
+# turbanheartrain
 
-> Make it rain emoji
+> Make it rain turban hearts
 
 ## Build Setup
 

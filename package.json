@@ -1,8 +1,8 @@
 {
-  "name": "vue-emoji-rain",
-  "description": "Make it rain emoji",
+  "name": "turbanheartrain",
+  "description": "Make it rain turban hearts",
   "version": "1.0.0",
-  "author": "rajat arora <rajat.arora@hotmail.ca>",
+  "author": "rajat-arora <rajat.arora@hotmail.ca>",
   "license": "MIT",
   "private": true,
   "scripts": {
