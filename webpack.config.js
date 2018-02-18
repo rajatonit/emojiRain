@@ -21,6 +21,10 @@ module.exports = {
         loader: 'vue-loader',
         options: {
           loaders: {
+            loader: 'babel-loader',
+        options: {
+          presets: ['es2015']
+        }
           }
           // other vue-loader options go here
         }

@@ -4,13 +4,13 @@
       <Emoji    :rainAway="rainAway" />
 
       <div id = "text">
-      <h1 >  What is this even</h1>
+      <h1 >  What is this even ???!!!???</h1>
 
-      <p >This is a <a href="https://vuejs.org/">Vue.js</a> element that you can drop on any web page and make it rain emoji. Because, why in the world wouldn't you?</p>
-      <button v-on:click="rain()"> Make it rain!!!  </button>
+      <p >This is a Vue element that you can drop on any Vue web page and make it rain turban and <span style="color: #E91E63">❤︎</span>'s (<a href="bit.ly/turbanheart">@turbanheart</a>). Because, why in the world wouldn't you?</p>
+      <button v-on:click="rain()"> Make it turbans and hearts!!!  </button>
       <hr/>
        <div id="footer">
-      <p>Made with <span style="color: #E91E63">❤︎</span> by <a href="https://twitter.com/rajatonit">rajat</a>.</p>
+      <p>Made with <span style="color: #E91E63">❤︎</span> by <a href="https://twitter.com/rajatonit">rajat</a>. </p>
     </div>
 
       </div>

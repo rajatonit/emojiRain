@@ -109,9 +109,7 @@ export default {
 
       this.context.restore();
     },
-    /**
-     * Create a set of emoji drops.
-     */
+
     _generateDrops() {
       this.dropsForDrawing = [];
       for (var i = 0; i < this.drops; i++) {
@@ -120,17 +118,12 @@ export default {
         this.dropsForDrawing.push(emoji);
       }
     },
-    /**
-     * Hopefully updates the canvas size when the window resizes.
-     */
+
     _resizeWindow() {
       this.canvas.width = window.innerWidth;
       this.canvas.height = window.innerHeight;
     },
-    /**
-     * Unborks the canvas pixel ratio on retina screens.
-     * From http://www.html5rocks.com/en/tutorials/canvas/hidpi/
-     */
+
     _scaleCanvas() {
       // Finally query the various pixel ratios.
       var devicePixelRatio = window.devicePixelRatio || 1;
@@ -203,11 +196,6 @@ export default {
       self._resizeWindow();
     }, false);
 
-
-
-    //this._generateDrops();
-
-    // this._start();
   },
   props: ['rainAway'],
   watch: {
