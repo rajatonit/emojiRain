@@ -8,7 +8,7 @@
 
       <p >This is a Vue element that you can drop on any Vue web page and make it rain emoji's</p>
       <button v-if="!this.rainAway" v-on:click="rain()"> Make it Rain Emojis!!!  </button>
-      <button else v-on:click="rain()"> Make it Stop </button>
+      <button v-else v-on:click="rain()"> Make it Stop </button>
 
       <hr/>
        <div id="footer">
