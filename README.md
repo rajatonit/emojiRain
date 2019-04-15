@@ -2,7 +2,7 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/efc4d9b1-9686-4aa4-91fd-f44982b3c8dd/deploy-status)](https://app.netlify.com/sites/quirky-northcutt-91b4ee/deploys)
 
-
+[Demo](https://quirky-northcutt-91b4ee.netlify.com/)
 
 ## Project setup
 ```
